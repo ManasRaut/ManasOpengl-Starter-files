@@ -1,0 +1,6 @@
+[submodule "Graphics_starter_files/vendor/GLM"]
+	path = Graphics_starter_files/vendor/GLM
+	url = https://github.com/g-truc/glm.git
+[submodule "Graphics_starter_files/vendor/GLFW"]
+	path = Graphics_starter_files/vendor/GLFW
+	url = https://github.com/glfw/glfw.git
