@@ -26,9 +26,16 @@ target_link_directories(${PROJECT_NAME}
 	PUBLIC vendor/GLFW/src
 )
 
+if (LINUX)
 target_link_libraries(${PROJECT_NAME} 
 	glfw 
 	imgui
 	opengl32
 	gdi32
 )
+else()
+target_link_libraries(${PROJECT_NAME} 
+	glfw 
+	imgui
+)
+endif()
